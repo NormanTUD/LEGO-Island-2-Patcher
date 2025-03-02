@@ -43,3 +43,9 @@ http://www.rockraidersunited.com/topic/7172-no-intro-no-cd-debug-info-level-sele
 Mumboking: Finding the hex offset values for the game's executable file
 
 http://www.rockraidersunited.com/topic/7206-lego-island-2-patches-using-a-hex-editor/
+
+#Run on Wine
+
+I wanted to play Lego Island 2 in a Windows 98 VM, but the Patcher didn't work for Windows 98. So I tried running it in XP, but it also didn't work. I wanted to patch the file in Wine, but it failed, saying it couldn't find some font family.
+
+The fix was to run `winetricks allfonts`. After all fonts were installed, it works on Wine and I could copy the patched `LEGO Insel 2.exe` file to Windows 98.
